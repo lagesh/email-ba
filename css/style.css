@@ -22,8 +22,9 @@ body {
 /* opening message anchor */
 .link {
   font-size: 0.625rem;
-  color: #bcbcbc;
+  color: #8a8787;
   text-align: center;
+  margin-bottom: 25px;
 }
 .link a {
   color: #bcbcbc;
@@ -35,6 +36,7 @@ body {
   border: none;
   outline: none;
   max-width: 16rem;
+  height: 7rem;
   margin: 0 auto;
 }
 
@@ -117,16 +119,15 @@ p {
   color: #2e5c99;
 }
 .ex-club {
-  width: 45%;
+  width: 40%;
 }
 .member {
   font-size: 0.75rem;
   color: #021b41;
 }
 .exec {
-  position: relative;
-  left: 6rem;
-  margin-top: 1.5rem;
+  /* text-align: center; */
+  margin: 0 auto;
 }
 
 /* footer */
