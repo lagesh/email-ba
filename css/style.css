@@ -1,356 +1,354 @@
 body {
-    box-sizing: border-box;
-    background-color: #f2f2f2;
-    color: #2E5C99;
-    font-family: 'Open Sans  Light', 'Open Sans', sans-serif;
-    margin: 0px;
-    padding: 0px;
-    
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  color: #2e5c99;
+  font-family: 'Open Sans  Light', 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 #container {
-    background-color: #ffffff;
-    max-width: 720px;
-    margin: 0 auto;
-    text-align: left;
+  background-color: #ffffff;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: left;
 }
 .main {
-    max-width: 600px;
-    background-color: #ffffff;
-    margin: 0 auto;
-    padding: 0 60px;
+  max-width: 600px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0 60px;
 }
 /* opening message anchor */
 .link {
-    font-size: 0.625rem;
-    color: #bcbcbc;
-    text-align: center;
+  font-size: 0.625rem;
+  color: #bcbcbc;
+  text-align: center;
 }
 .link a {
-    color: #bcbcbc;
+  color: #bcbcbc;
 }
 
 /*images and logo */
 .logo {
-    display: block;
-    border: none;
-    outline: none;
-    max-width: 16rem;
-    margin: 0 auto;
+  display: block;
+  border: none;
+  outline: none;
+  max-width: 16rem;
+  margin: 0 auto;
 }
 
 .main-image {
-    width: 100%;
-    margin-top: 3.5rem;
-    margin-bottom: 3rem;
+  width: 100%;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
 }
 .images {
-    width: 100%;
-    height: auto;
-    align-self: center;
+  width: 100%;
+  height: auto;
+  align-self: center;
 }
 
 .cta {
-    background-color: #315b9c;
-    color: #ffffff;
-    border: 1px solid #315b9c;
-    border-radius: 2%;
-    display: inline-block;
-    font-size: 1rem;
-    width: 40%;
-    margin: 2.5rem auto 4.5rem auto;
-    padding: 20px 0px;
-    text-align: center;
-    position: relative;
-    left: 9.375rem;
-
+  background-color: #315b9c;
+  color: #ffffff;
+  border: 1px solid #315b9c;
+  border-radius: 2%;
+  display: inline-block;
+  font-size: 1rem;
+  width: 40%;
+  margin: 2.5rem auto 4.5rem auto;
+  padding: 20px 0px;
+  text-align: center;
+  position: relative;
+  left: 9.375rem;
 }
 
 /* letterings */
 h1 {
-    font-size: 2.25rem;
-    line-height: 3rem;
-    font-weight: normal;
-    max-width: 37.5rem;
-    padding: 0px, 60px, 57px, 60px;
-    text-align: center;
-    margin: 0 auto;
+  font-size: 2.25rem;
+  line-height: 3rem;
+  font-weight: normal;
+  max-width: 37.5rem;
+  padding: 0px, 60px, 57px, 60px;
+  text-align: center;
+  margin: 0 auto;
 }
-h2{
-    font-size: 1.75rem;
-    font-weight: normal;
-    line-height: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+h2 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 h3 {
-    color: #2E5C99;
-    font-weight: normal;
-    padding: 25px 0;
-    font-size: 1.5rem;
-    border-top: 1px solid #E0E0E0;
-    border-bottom: 1px solid #E0E0E0;
-    margin-top: 2.5rem;
-    margin-bottom: 4.5rem;
+  color: #2e5c99;
+  font-weight: normal;
+  padding: 25px 0;
+  font-size: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 2.5rem;
+  margin-bottom: 4.5rem;
 }
 .destinations a {
-    text-decoration: none;
+  text-decoration: none;
 }
 span {
-    float: right;
-    font-weight: normal;
+  float: right;
+  font-weight: normal;
 }
 p {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 /* membership table*/
 
 .table {
-    border: 1px solid #b5a6a6;
-    max-width: 550px;
-    margin: 0px auto;
-    padding: 2rem;
-    box-shadow: 1px 1px 1px;
+  border: 1px solid #b5a6a6;
+  max-width: 550px;
+  margin: 0px auto;
+  padding: 2rem;
+  box-shadow: 1px 1px 1px;
 }
 .table a {
-    text-decoration: none;
-   color: #2E5C99;
+  text-decoration: none;
+  color: #2e5c99;
 }
 .ex-club {
-    width: 45%;
+  width: 45%;
 }
 .member {
-    font-size: 0.75rem;
-    color: #021b41;
+  font-size: 0.75rem;
+  color: #021b41;
 }
 .exec {
-    position: relative;
-    left: 6rem;
-    margin-top: 1.5rem;
+  position: relative;
+  left: 6rem;
+  margin-top: 1.5rem;
 }
 
 /* footer */
 
 footer {
-    margin-top: 8rem;
-    color: #021b41;
-    font-size: .8rem;
-    background-color: #f7f7f7;
-    padding: 60px;
+  margin-top: 8rem;
+  color: #021b41;
+  font-size: 0.8rem;
+  background-color: #f7f7f7;
+  padding: 60px;
 }
 h4 {
-    text-align: center;
-    font-weight: 400;
+  text-align: center;
+  font-weight: 400;
 }
 .partner-logo {
-    display: block;
-    width: 2.75rem;
-    margin: 3rem auto;
+  display: block;
+  width: 2.75rem;
+  margin: 3rem auto;
 }
 .tandc {
-    border-top: 1px solid #E0E0E0;
-    border-bottom: 1px solid #E0E0E0;
-    text-align: left;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+  padding: 0 1rem;
 }
 .tandc h4 {
-    text-align: left;
-    font-size: 0.95rem;
-    font-weight: normal;
+  text-align: left;
+  font-size: 0.95rem;
+  font-weight: normal;
 }
 .tandc p {
-    font-size: 0.75rem;
-    line-height: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
 }
 footer a {
-    display: block;
-    text-align: center;
-    color: #021b41;
-    margin: 4rem;
+  display: block;
+  text-align: center;
+  color: #021b41;
+  margin: 4rem;
 }
 .logo-end {
-    display: block;
-    margin: 0px auto;
-    width: 15%;
+  display: block;
+  margin: 0px auto;
+  width: 15%;
 }
 /* ----media queries---*/
 @media only screen and (min-width: 575px) and (max-width: 670px) {
-    .link {
-        font-size: 0.5rem;
-    }
-    .main {
-        width: 90%;
-        padding: 0;
-    }
-    .main-image {
-        margin-bottom: 2rem;
-    }
-    h1 {
-        font-size: 2rem;
-        line-height: 2.5rem;
-        width: 75%
-    }
-    h2{
-        margin-bottom: 2rem;
-        font-size: 1.5rem;
-    }
-    h3{
-        padding: 20px;
-        font-size: 1.25rem;
-        margin-top: 2rem;
-        margin-bottom: 3.5rem;
-    }
-    p {
-        font-size: 0.8rem;
-    }
-    .cta {
+  .link {
+    font-size: 0.5rem;
+  }
+  .main {
+    width: 90%;
+    padding: 0;
+  }
+  .main-image {
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: 75%;
+  }
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+  h3 {
+    padding: 20px;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .cta {
     font-size: 0.8rem;
     width: 40%;
     margin: 1.5rem auto 3rem auto;
     padding: 15px 0px;
     left: 9.25rem;
-    }
-    .tandc p {
-        font-size: 0.675rem;
-    }footer a {
-        font-size: 0.675rem
-    }
-    
+  }
+  .tandc p {
+    font-size: 0.675rem;
+  }
+  footer a {
+    font-size: 0.675rem;
+  }
 }
 
 @media only screen and (max-width: 574px) {
-    .logo { 
-        width: 35%;
-    }
-    .cta {
-        left: 9rem;
-    }
+  .logo {
+    width: 35%;
+  }
+  .cta {
+    left: 9rem;
+  }
 }
 
 @media only screen and (max-width: 517px) {
-    h1 {
-        font-size: 1.5rem;
-        width: 85%;
-    }
-    h2 {
-        font-size: 1.25rem;
-    }
-    h3{
-        font-size: 1.125rem;
-        margin-bottom: 3rem;
-    }
-    
-    p {
-        font-size: 0.675rem;
-    }
-    .cta {
-        left: 8rem;
-        font-size: 0.675rem
-    }
-    .table {
-        width: 80%;
-        margin: 0px auto;
-        
-    }
-    .table a {
-        font-size: 0.8 rem;
-        }
-    .member {
-        font-size: 0.625rem;
-    }
-    .exec {
-        left: 20%;
-    }
+  h1 {
+    font-size: 1.5rem;
+    width: 85%;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+  }
+
+  p {
+    font-size: 0.675rem;
+  }
+  .cta {
+    left: 8rem;
+    font-size: 0.675rem;
+  }
+  .table {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .table a {
+    font-size: 0.8 rem;
+  }
+  .member {
+    font-size: 0.625rem;
+  }
+  .exec {
+    left: 20%;
+  }
 }
 @media only screen and (max-width: 461px) {
-    .main {
-        width: 90%;
-        padding: 0px;
-    }
-    h2 {
-        margin-bottom: 2rem;
-    }
-    .table a {
-        font-size: 0.7rem;
-        }
-    .cta {
-        left: 30%;
-        padding: 15px
-    }
-    footer {
-        font-size: 0.6rem;
-        margin: 30px auto 0px auto;
-        width: 90%;
-        padding: 0px;
-    }
-    .tandc p {
-        font-size: 0.6rem;
-    }
+  .main {
+    width: 90%;
+    padding: 0px;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  .table a {
+    font-size: 0.7rem;
+  }
+  .cta {
+    left: 30%;
+    padding: 15px;
+  }
+  footer {
+    font-size: 0.6rem;
+    margin: 30px auto 0px auto;
+    width: 90%;
+    padding: 0px;
+  }
+  .tandc p {
+    font-size: 0.6rem;
+  }
 }
 @media only screen and (max-width: 400px) {
-    .main {
-        width: 90%;
-        padding: 0px;
-    }
-    .link {
-        font-size: 0.4rem;
-    }
-    h1 {
-        font-size: 1.125rem;
-        line-height: 1.5rem;
-        width: 90%;
-    }
-    .main-image {
-        margin-top: 2.5rem;
-        margin-bottom: 1.2rem;
-    }
-    p {
-        font-size: 0.62rem
-    }
-    .cta {
-        font-size: 0.62rem;
-        padding: 10px 0px;
-        margin: 1.25rem 0px 2.5rem 0px;
-    }
-    h2 {
-        font-size: 1rem;
-        line-height: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-    h3 {
-        font-size: 0.9rem;
-        padding: 15px 0;
-    }
-    .table {
-        width: 75%;
-        padding: 1rem;
-    }
-    .table a {
-        font-size: 0.6rem
-    }
-    .member {
-        font-size: 0.55rem
-    }
-    footer {
-        font-size: 0.6rem;
-        margin: 30px auto 0px auto;
-        width: 90%;
-        padding: 0px;
-    }
-    .partner-logo {
-        width: 2.5rem;
-    }
-    .tandc h4 {
-        font-size: 0.6rem;
-    }
-    .tandc p {
-        font-size: 0.5rem;
-    }
-    footer a {
-        font-size: 0.5rem;
-    }
-    h4{
-        padding-top: 20px;
-    }
+  .main {
+    width: 90%;
+    padding: 0px;
+  }
+  .link {
+    font-size: 0.4rem;
+  }
+  h1 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    width: 90%;
+  }
+  .main-image {
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+  }
+  p {
+    font-size: 0.62rem;
+  }
+  .cta {
+    font-size: 0.62rem;
+    padding: 10px 0px;
+    margin: 1.25rem 0px 2.5rem 0px;
+  }
+  h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  h3 {
+    font-size: 0.9rem;
+    padding: 15px 0;
+  }
+  .table {
+    width: 75%;
+    padding: 1rem;
+  }
+  .table a {
+    font-size: 0.6rem;
+  }
+  .member {
+    font-size: 0.55rem;
+  }
+  footer {
+    font-size: 0.6rem;
+    margin: 30px auto 0px auto;
+    width: 90%;
+    padding: 0px;
+  }
+  .partner-logo {
+    width: 2.5rem;
+  }
+  .tandc h4 {
+    font-size: 0.6rem;
+  }
+  .tandc p {
+    font-size: 0.5rem;
+  }
+  footer a {
+    font-size: 0.5rem;
+  }
+  h4 {
+    padding-top: 20px;
+  }
 }
