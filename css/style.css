@@ -272,8 +272,9 @@ footer a {
     align-items: center;
   }
   .partner-logo {
-      margin: 1rem;
+    margin: 1rem;
   }
+}
 @media only screen and (max-width: 461px) {
   .main {
     width: 90%;
