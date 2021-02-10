@@ -25,9 +25,10 @@ body {
   color: #8a8787;
   text-align: center;
   margin-bottom: 25px;
+  padding-top: 1rem;
 }
 .link a {
-  color: #bcbcbc;
+  color: #333030;
 }
 
 /*images and logo */
@@ -81,7 +82,7 @@ h2 {
   font-weight: normal;
   line-height: 2rem;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 h3 {
   color: #2e5c99;
@@ -109,7 +110,7 @@ p {
 
 .table {
   border: 1px solid #b5a6a6;
-  max-width: 550px;
+  max-width: 500px;
   margin: 0px auto;
   padding: 2rem;
   box-shadow: 1px 1px 1px;
@@ -143,15 +144,20 @@ h4 {
   text-align: center;
   font-weight: 400;
 }
+.partners {
+  width: 40%;
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
 .partner-logo {
-  display: block;
-  width: 2.75rem;
-  margin: 3rem auto;
+  width: 2.5rem;
 }
 .tandc {
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
-  text-align: left;
+  text-align: justify;
   padding: 0 1rem;
 }
 .tandc h4 {
@@ -253,7 +259,7 @@ footer a {
     margin: 0px auto;
   }
   .table a {
-    font-size: 0.8 rem;
+    font-size: 0.7rem;
   }
   .member {
     font-size: 0.625rem;
@@ -261,7 +267,13 @@ footer a {
   .exec {
     left: 20%;
   }
-}
+  .partners {
+    flex-direction: column;
+    align-items: center;
+  }
+  .partner-logo {
+      margin: 1rem;
+  }
 @media only screen and (max-width: 461px) {
   .main {
     width: 90%;
@@ -269,9 +281,6 @@ footer a {
   }
   h2 {
     margin-bottom: 2rem;
-  }
-  .table a {
-    font-size: 0.7rem;
   }
   .cta {
     left: 30%;
