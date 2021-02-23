@@ -1,7 +1,7 @@
 body {
   box-sizing: border-box;
   background-color: #f1f1f1;
-  color: #1c3b64;
+  color: #144147;
   font-family: 'Open Sans  Light', 'Open Sans', sans-serif;
   margin: 0px;
   padding: 0px;
@@ -21,6 +21,7 @@ body {
 }
 .main-paragraph p {
   text-align: left;
+  color: #144147;
 }
 /* opening message anchor */
 .link {
@@ -56,8 +57,8 @@ body {
 }
 
 .cta {
-  background-color: #315b9c;
-  color: #ffffff;
+  color: #fff;
+  background-color: #146d79;
   border: 1px solid #315b9c;
   border-radius: 2%;
   display: inline-block;
@@ -71,7 +72,8 @@ body {
 }
 
 .cta:hover {
-  background-color: #10366e;
+  background-color: #315b9c;
+  color: #ffffff;
 }
 
 /* letterings */
